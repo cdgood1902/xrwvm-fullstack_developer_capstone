@@ -124,3 +124,12 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-icon{
+    width: 3rem;
+    height:auto;
+}
+
+.contact-text{
+    margin: 0;
+}
