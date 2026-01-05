@@ -31,10 +31,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "localhost",
-    "https://carlygreat-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai",
+    "https://carlygreat-8000.theiadockernext-1-labs.proxy.cognitiveclass.ai",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://carlygreat-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai"
+    "https://carlygreat-8000.theiadockernext-1-labs.proxy.cognitiveclass.ai"
 ]
 
 REST_FRAMEWORK = {
@@ -99,16 +99,16 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+        "NAME": "django.contrib.auth.password_validation.AttributeSimilarity",
     },
     {
-        "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
+        "NAME": "django.contrib.auth.password_validation.MinimumLengthValida",
     },
     {
-        "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",
+        "NAME": "django.contrib.auth.password_validation.CommonPasswordValid",
     },
     {
-        "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
+        "NAME": "django.contrib.auth.password_validation.NumericPasswordVali",
     },
 ]
 
